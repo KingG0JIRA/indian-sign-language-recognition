@@ -1,7 +1,7 @@
 # indian-sign-language-recognition
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.vhv.rs%2Fviewpic%2FiimwJbR_sign-language-sign-language-icon-png-transparent-png%2F&ved=0CBUQjRxqFwoTCOih1q7-yJEDFQAAAAAdAAAAABAj&opi=89978449" width="600">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6aNAkiYFcq2cz7LlnoI1q2v4kZW3wz4O-Q&s" width="600">
 </p>
 This project implements a real-time Indian Sign Language (ISL) word recognition system using computer vision and machine learning.
 
