@@ -1,4 +1,7 @@
 # indian-sign-language-recognition
+
+![System Architecture](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.indiancentury.in%2F2022%2F09%2F26%2Fincreasing-awareness-about-indian-sign-language%2F&opi=89978449)
+
 This project implements a real-time Indian Sign Language (ISL) word recognition system using computer vision and machine learning.
 
 ## Features
