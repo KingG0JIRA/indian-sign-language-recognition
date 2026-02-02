@@ -43,4 +43,83 @@ The goal of this project is to build a **lightweight, explainable, and extensibl
 ## Methodology
 
 The system follows a structured pipeline:
+Camera Input
+→ Hand Detection
+→ Landmark Stabilization
+→ Feature Extraction
+→ Temporal Frame Buffer (30 frames)
+→ Dataset Recording / Model Prediction
 
+
+Each gesture is represented as a **(30 × 32)** feature sequence:
+- **30** time steps (frames)
+- **32** features per frame (16 per hand)
+
+This approach captures **both hand shape and motion dynamics**, making it more robust than static image-based methods.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **OpenCV**
+- **MediaPipe (Hand Landmarks)**
+- **NumPy**
+- **Flask** (Web UI)
+- **TensorFlow / Keras** (LSTM model – training stage)
+
+---
+
+## 📂 Project Structure
+
+
+
+isl-gesture-translator/
+│
+├── pipeline.py # Shared preprocessing & feature extraction
+├── record_dataset.py # Dataset recording script
+├── app.py # Flask backend
+│
+├── templates/
+│ └── index.html # Web UI
+│
+├── static/
+│ └── style.css # UI styling
+│
+├── dataset/ # Recorded gesture data (.npy)
+│
+├── model/ # Trained LSTM models
+│
+└── README.md
+
+
+---
+
+## 📊 Dataset
+
+- Each gesture sample is stored as a **NumPy array (.npy)** of shape `(30, 32)`
+- 20–30 samples are recorded per gesture
+- Dataset is collected in a controlled environment
+- The same preprocessing pipeline is used for **recording, training, and inference**
+
+---
+
+## 🎯 Supported Gestures
+
+This project focuses on a **limited subset of ISL gestures** for demonstration purposes:
+
+- HELLO  
+- YES  
+- NO  
+- THANK YOU  
+- STOP  
+
+The system can be extended easily by recording additional gestures.
+
+---
+
+## 🧪 How to Run
+
+### 1️⃣ Install Dependencies
+```bash
+pip install opencv-python mediapipe numpy flask tensorflow
