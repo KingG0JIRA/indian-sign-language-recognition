@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ISL Gesture Translator</title>
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 10px 0;
+        }
+
+     
+        .settings {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 1.8rem;
+            cursor: pointer;
+            color: #333;
+        }
+
+        .settings:hover {
+            color: #000;
+        }
+
+        .camera-container {
+            width: 100%;
+            height: 70vh;
+            background: black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .overlay-text {
+            position: absolute;
+            color: white;
+            font-size: 2rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 6px;
+        }
+
+        .result-box {
+            margin-top: 10px;
+            padding: 12px;
+            background: white;
+            border: 2px solid #ccc;
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Settings gear -->
+<i class="fa-solid fa-gear settings"></i>
+
+<h2>ISL Translator</h2>
+
+<div class="camera-container">
+    <video id="webcam" autoplay playsinline></video>
+    <div class="overlay-text">Webcam Display</div>
+</div>
+
+<div class="result-box">
+    <strong>HELLO</strong>
+</div>
+
+<script>
+    const video = document.getElementById("webcam");
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(stream => {
+            video.srcObject = stream;
+        })
+        .catch(() => {
+            alert("Unable to access webcam");
+        });
+</script>
+
+</body>
+</html>
