@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a **real-time Indian Sign Language (ISL) gesture recognition system** using computer vision and machine learning.  
 Instead of relying on raw image classification, the system uses **hand landmark-based feature extraction** and **temporal sequence modeling** to achieve robust and interpretable gesture recognition.
@@ -27,7 +27,7 @@ The goal of this project is to build a **lightweight, explainable, and extensibl
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - Real-time hand detection using MediaPipe  
 - Landmark stabilization (position normalization, scale normalization, temporal smoothing)  
@@ -40,7 +40,7 @@ The goal of this project is to build a **lightweight, explainable, and extensibl
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
 The system follows a structured pipeline:
 
