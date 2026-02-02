@@ -1,7 +1,10 @@
 # sign-langauge-translator-for-ISL
  
 <p align="center">
-  <img src="./9f9db106-282b-4da5-b302-accf1a311b53.png" alt="ISL Gesture Translator Logo" width="300"/>
+ <p align="center">
+  <img src="[path/to/logo.png" alt="Alt text" width="100](https://cdn.prod.website-files.com/6023fdfa97944f09d6a27ac6/635b737d2d96d96840b33ed7_How%20to%20learn%20Basic%20Conversational%20Sign%20Language.webp)"/>
+</p>
+
 </p>
 
 <h1 align="center">Indian Sign Language Gesture Translator</h1>
