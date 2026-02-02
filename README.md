@@ -1,13 +1,13 @@
 # sign-langauge-translator-for-ISL
  
 <p align="center">
- <img src="635b737d2d96d96840b33ed7_How to learn Basic Conversational Sign Language.webp" width="300"/>
+ <img src="635b737d2d96d96840b33ed7_How to learn Basic Conversational Sign Language.webp"/>
 
  
  
 </p>
 
-</p>![635b737d2d96d96840b33ed7_How to learn Basic Conversational Sign Language](https://github.com/user-attachments/assets/8b1d280c-87dc-4c6f-a6ae-911f0662bb67)
+
 
 
 <h1 align="center">Indian Sign Language Gesture Translator</h1>
