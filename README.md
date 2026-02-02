@@ -2,10 +2,11 @@
  
 <p align="center">
  <p align="center">
-  <img src="[path/to/logo.png" alt="Alt text" width="100](https://cdn.prod.website-files.com/6023fdfa97944f09d6a27ac6/635b737d2d96d96840b33ed7_How%20to%20learn%20Basic%20Conversational%20Sign%20Language.webp)"/>
+ 
 </p>
 
-</p>
+</p>![635b737d2d96d96840b33ed7_How to learn Basic Conversational Sign Language](https://github.com/user-attachments/assets/8b1d280c-87dc-4c6f-a6ae-911f0662bb67)
+
 
 <h1 align="center">Indian Sign Language Gesture Translator</h1>
 
