@@ -1,7 +1,9 @@
 # sign-langauge-translator-for-ISL
  
 <p align="center">
- <p align="center">
+ <img src="635b737d2d96d96840b33ed7_How to learn Basic Conversational Sign Language.webp" width="300"/>
+
+ 
  
 </p>
 
