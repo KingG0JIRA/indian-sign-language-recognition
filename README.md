@@ -59,7 +59,7 @@ This approach captures **both hand shape and motion dynamics**, making it more r
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **OpenCV**
@@ -70,7 +70,7 @@ This approach captures **both hand shape and motion dynamics**, making it more r
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
 
@@ -95,7 +95,7 @@ isl-gesture-translator/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Each gesture sample is stored as a **NumPy array (.npy)** of shape `(30, 32)`
 - 20–30 samples are recorded per gesture
@@ -104,7 +104,7 @@ isl-gesture-translator/
 
 ---
 
-## 🎯 Supported Gestures
+## Supported Gestures
 
 This project focuses on a **limited subset of ISL gestures** for demonstration purposes:
 
@@ -118,7 +118,7 @@ The system can be extended easily by recording additional gestures.
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 ### 1️⃣ Install Dependencies
 ```bash
