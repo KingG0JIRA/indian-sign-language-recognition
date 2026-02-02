@@ -1,7 +1,7 @@
 # indian-sign-language-recognition
 
 <p align="center">
-  <img src="[https://www.pngfind.com/pngs/m/513-5134529_sign-language-clipart-logo-indian-sign-language-hd.png](https://in.pinterest.com/pin/women-of-type--180355160073118355](https://static.vecteezy.com/system/resources/thumbnails/006/153/663/small/i-love-you-language-hand-sign-icon-vector.jpg)" width="600">
+  <img src="https://cdn.prod.website-files.com/6023fdfa97944f09d6a27ac6/635b737d2d96d96840b33ed7_How%20to%20learn%20Basic%20Conversational%20Sign%20Language.webp" width="600">
 </p>
 This project implements a real-time Indian Sign Language (ISL) word recognition system using computer vision and machine learning.
 
